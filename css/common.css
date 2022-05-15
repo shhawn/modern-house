@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/* header */
+
+header {width: 100%; height: 180px; background-image: url("../img/header_background.png"); background-repeat: repeat-x; margin: 0; background-position: 0% 35%; border-bottom: 1px solid #ddd;}
+#head {margin: 0 auto; width: 1080px; background-color: #2e2f2a;}
+#h_main img {margin: 20px 0 0 -80px;} /* 로고 */
+
+/* 브랜드 SITE */
+
+#h_menu {width: 100%; height: 40px;}
+#h_menu > ul > li > a {float: left; }
+#h_brandmenu {float: left; width: 120px; height: 40px; margin: 8px 0 0 20px; }
+#h_brandmenu a {color: #cdcdcd; font-size: 12px; font-family: verdana; font-weight: bold; background: url(img/bu_brand_arrow.png) no-repeat 100% -28px; padding: 0 25px 0 0;}
+
+/* 로그인 */
+
+#login {float: right;}
+#login li {float: left; font-size: 11px; margin: 12px 0;}
+#login a {color: #fff; background: url("../img/nav_div.png") no-repeat 100% 3px; padding: 0 10px; }
+#login .center > a{background: none; padding: 0 0 0 10px;}
+
+/* 사이트 대분류 (로고 기준 왼쪽) */
+
+#h_main {width: 1080px; height: 100px; border: none; margin: 0 auto; background-color: #646464;}
+#h_main > ul {float: left; position: absolute; margin: 40px 0 0 0;}
+#h_main > ul > li {float: left; margin: 0 15px 0 0;}
+#h_main .cate1 > a {color: #bfbeba; font-size: 14px; font-weight: bold; background: url("../img/logo_icon1.png") no-repeat; padding: 0 0 0 22px; letter-spacing: -1px;}
+#h_main .cate2 > a {color: #bfbeba; font-size: 14px; font-weight: bold; background: url("../img/logo_icon2.png") no-repeat; padding: 0 0 0 22px; letter-spacing: -1px;}
+#h_main .cate3 > a {color: #bfbeba; font-size: 14px; font-weight: bold; background: url("../img/logo_icon3.png") no-repeat; padding: 0 0 0 22px; letter-spacing: -1px;}
+#h_main .cate4 > a {color: #bfbeba; font-size: 14px; font-weight: bold; background: url("../img/logo_icon4.png") no-repeat; padding: 0 0 0 22px; letter-spacing: -1px;}
+
+/* 검색창 (로고 기준 오른쪽) */
+
+.search_bar {float: right; width: 325px; height: 40px; border: 2px solid #b2b2b2; border-radius: 20px; margin-top: 32px; position: relative;}
+.search_bar input {width: 270px; height: 35px; border-radius: 20px; padding: 0 20px; background: none; border: none; color: #fff; font-size: 13px;}
+.search_bar button {width: 52px; height: 40px; position: absolute; top: -2px; right: -2px; background: url("../img/ico_search.png") no-repeat 100% 50%; border: none; cursor: pointer;}
+.search_bar input::placeholder {color: #fff;}
+.search_bar input:focus {
+    outline: none;
+}
+
+/* header NAV */
+
+#nav {width: 1080px; height: 40px; margin: 0 auto; position: relative;}
+nav ul {margin: 9px 0 0 0px;}
+nav li {float: left; margin: 0 20px 0 0; padding: 0;}
+nav li:last-of-type {margin: 0;}
+nav a {width: 80px; height: 40px; font-size: 12px; background: url("../img/nav_div.png") no-repeat 100% 60%; padding: 0 19px 0 0; font-weight: 800;}
+.category a {color: #000;}
+nav li:not(:first-child) a:hover {color: #ca9e71;}
+.butter > a {background: none; margin: 0 0 0 5px; padding: 0px;}
+.butter > a > img {float: left; margin: -1px 0 0 0;}
+.linen {margin-top: 1px;}
+
+.nav_list {width: 120px; position: absolute; top: 30px; left: 36px; background: #fff; border: 2px solid black; padding: 15px 10px; z-index: 1; display: none; z-index: 99;}
+.nav_list img {position: absolute; top: -10px; left: 45%;}
+.nav_list li {margin-bottom: 10px; line-height: 13px;}
+.nav_list a {font-size: 13px; letter-spacing: -1.8px; color: #666;}
+.nav_list a:hover {color: #333; font-weight: 800;}
+
+
+/* footer */
+
+footer {width: 100%; height: 360px; overflow: hidden;}
+.f_nav_back {width: 100%; height: 45px; background-color: #f3f3f3;}
+
+/* footer NAV */
+
+.f_nav_list {width: 1080px; height: 100%; background-color: #f3f3f3; margin: 0 auto;}
+.f_nav_list ul {padding: 15px 18px;}
+.f_nav_list li {float: left; font-size: 12px;}
+.f_nav_list li a {color: #333; background: url("../img/nav_div.png") no-repeat 100% 55%; padding: 0 17px 0 0; margin: 0 17px 0 0;}
+.f_nav_list > ul > li:last-of-type > a {background: none; padding: 0; margin: 0;}
+
+/* QR 코드 & app */
+
+.f_section {width: 1080px; height: 100%; margin: 0 auto;}
+.f_context1 {width: 200px; height: 100%; float: left; padding: 15px 0 0 0;}
+.f_context1 img {display: block; margin: 20px auto;}
+
+/* 회사 정보 */
+
+.f_context2 {width: 600px; height: 100%; float: left; margin: 0 15px;}
+.f_view1 {margin: 20px 0;}
+.f_view1 li {font-size: 12px; display: inline-block; margin-right: 11px; color: #666;}
+.f_view1 button {border: 1px solid #bfbeba; font-size: 12px; background-color: white; cursor: pointer;}
+.f_view1 span {background: url("../img/ico_arrow.png") no-repeat 100% 45%; padding: 0 10px 0 0;}
+.f_view2 li {font-size: 12px; display: inline-block; margin-right: 11px; color: #666;}
+.f_view2 {margin: 20px 0;}
+.f_view2 ul li:nth-child(8) {display: block; margin-top: 3px;}
+.f_view2 button {border: 1px solid #bfbeba; font-size: 12px; background-color: white; cursor: pointer;}
+.f_view2 span {background: url("../img/ico_arrow.png") no-repeat 100% 45%; padding: 0 10px 0 0;}
+.f_view3 span {font-size: 13px; font-family: Verdana; display: block;}
+.f_view3 img {margin-top: 10px;}
+
+/* 고객 센터 */
+
+.f_context3 {width: 250px; height: 100%; float: right;}
+.f_cs {margin-top: 160px;}
+.f_cs strong {display: block;}
+.f_cs strong:first-of-type {font-size: 15px;}
+.f_cs strong:last-of-type {font-size: 18px; font-family: Verdana;}
+.f_cs span {font-size: 12px; letter-spacing: -1px; color: #666;}
+.f_staff {margin: 20px 0;}
+.f_staff span {font-size: 12px; font-weight: 600; color: #3a3b3c;}
+.f_staff span:before {display: inline-block; content: ""; width: 30px; height: 30px; background: url("../img/ico_staff.png") no-repeat; vertical-align: middle; margin-right: 5px;}
